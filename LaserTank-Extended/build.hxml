@@ -1,0 +1,6 @@
+-cp src
+-lib heaps
+-lib hlsdl
+-main Main
+-hl build/app.hl
+-debug
