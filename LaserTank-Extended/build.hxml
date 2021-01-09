@@ -2,5 +2,6 @@
 -lib heaps
 -lib hlsdl
 -main Main
+-resourcesPath asset
 -hl build/app.hl
 -debug
