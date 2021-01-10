@@ -7,7 +7,14 @@
 			"group": {
 				"kind": "build",
 				"isDefault": true
-			}
+			},
+			"dependsOn":["Copy index"]
+		},
+		{
+			"label": "Copy index",
+			"type": "process",
+			"command": "cp",
+			"args": ["index.html", "build/index.html"],
 		}
 	]
 }
