@@ -1,5 +1,4 @@
 -cp src
 -lib heaps
 -main Main
--D resourcesPath asset
 -js build/game.js
